@@ -1,0 +1,33 @@
+EDWARD A. CORCORAN WEBSITE IMAGE ASSETS
+
+Files
+- natural.png
+  Source page: https://commons.wikimedia.org/wiki/File:Hurricane_Lane_(44172875932).png
+  Suggested label: Natural
+  Title/description: Hurricane Lane (night-time satellite view)
+  License: CC BY 2.0
+  Attribution: NASA/NOAA/UWM-CIMSS/William Straka III via Wikimedia Commons
+  Notes: Attribution required.
+
+- internal.jpg
+  Source page: https://commons.wikimedia.org/wiki/File:Server_Room_(22397102849).jpg
+  Suggested label: Internal
+  Title/description: Server Room
+  License: CC BY 2.0
+  Attribution: Carl Lender via Wikimedia Commons
+  Notes: Attribution required.
+
+- external.jpg
+  Source page: https://commons.wikimedia.org/wiki/File:The_earth_at_night.jpg
+  Suggested label: External
+  Title/description: The earth at night
+  License: Public domain (NASA)
+  Attribution: NASA Earth Observatory via Wikimedia Commons
+  Notes: Public domain in the U.S.; attribution is still good practice.
+
+Recommended public/Next.js paths
+- /public/images/framework/natural.png
+- /public/images/framework/internal.jpg
+- /public/images/framework/external.jpg
+
+Web-optimized versions are included in /web-optimized.
