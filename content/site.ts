@@ -9,33 +9,34 @@ export const navigation = [
 export const siteContent = {
   authorName: "Edward A. Corcoran",
   book: {
-    title: "Revive American Dream",
+    title: "Revive the American Dream",
     // Update these lines if you want the hero title to break differently.
-    heroTitleLines: ["Revive", "American Dream"],
-    subtitle: "Strategies in a New Century",
+    heroTitleLines: ["Revive", "the American", "Dream"],
+    subtitle: "",
     shortDescription:
-      "A strategic assessment of the evolving natural, internal, and external threats facing the United States.",
-    buyUrl: "https://www.amazon.ca/dp/B00939RKOS",
-    availability: "Available on Kindle",
+      "A policy-minded call for a comprehensive national survey of the economic, social, and global pressures that have dimmed the American dream.",
+    buyUrl:
+      "https://www.barnesandnoble.com/w/revive-the-american-dream-edward-corcoran/1145837232?ean=9798895183953",
+    availability: "Available in paperback",
     // Switch this to "flat" if you want the hero to use the raw cover instead of the CSS-based 3D presentation.
     heroBookMode: "mockup" as const,
     overview: [
-      "Threats & Challenges examines a strategic blind spot in American statecraft: the nation has security doctrine, but no truly comprehensive method for assessing the full range of pressures shaping national resilience.",
-      "Rather than treating danger only as the product of hostile actors, the book argues for a broader framework that accounts for natural disruption, internal strain, and external pressure in one integrated national view."
+      "Has America's beacon of freedom failed to live up to its credo? The American dream, that working hard would lead to a good life, has faded for many people who now cannot afford healthcare, housing, education, and food because they are struggling within an economic system that favors the rich.",
+      "America has moved past the Cold War threats of the Soviet Union, but a reinvigorated Russia promoting autocrats globally has helped sustain an emphasis on military capabilities at the expense of economic development. The book argues that the nation now needs a comprehensive survey of its challenges, with input from citizens, to help revive the American dream."
     ],
     quote:
-      "The first requirement is a basic and comprehensive assessment of the totality of threats and challenges facing the nation.",
+      "We badly need a comprehensive survey of the challenges facing the nation, assessing how to best balance resources to revive the American dream.",
     tags: [
-      "National Strategy",
-      "Security Policy",
-      "Risk Assessment",
+      "Economic Policy",
+      "National Renewal",
+      "Public Affairs",
       "Governance",
-      "Modern Threats"
+      "American Dream"
     ]
   },
   framework: [
     {
-      title: "Natural",
+      title: "Resilience",
       tone: "blue" as const,
       image: {
         src: "/images/framework/natural.jpg",
@@ -44,10 +45,10 @@ export const siteContent = {
           "scale-[1.16] [object-position:50%_62%] sm:[object-position:50%_58%] lg:[object-position:50%_52%]"
       },
       description:
-        "Disasters, environmental events, and destabilizing conditions that challenge national resilience."
+        "Healthcare, housing, education, and food access form the material basis of opportunity. When these foundations break down, the promise of upward mobility breaks with them."
     },
     {
-      title: "Internal",
+      title: "Systems",
       tone: "amber" as const,
       image: {
         src: "/images/framework/internal.jpg",
@@ -56,10 +57,10 @@ export const siteContent = {
           "scale-[1.1] [object-position:80%_46%] sm:[object-position:78%_44%] lg:[object-position:76%_42%]"
       },
       description:
-        "Domestic fractures, institutional strain, and structural vulnerabilities within the nation."
+        "Political unrest, racial tension, violence, and the overdose crisis reveal deeper structural failures inside the nation and the systems meant to hold it together."
     },
     {
-      title: "External",
+      title: "Global Order",
       tone: "purple" as const,
       image: {
         src: "/images/framework/external.jpg",
@@ -68,7 +69,7 @@ export const siteContent = {
           "scale-[1.08] [object-position:52%_42%] sm:[object-position:50%_46%] lg:[object-position:50%_48%]"
       },
       description:
-        "Foreign pressures, geopolitical competition, and security risks beyond U.S. borders."
+        "Foreign pressure still shapes domestic choices. The book points to renewed authoritarian influence abroad and asks how national priorities should be rebalanced at home."
     }
   ],
   author: {

@@ -10,8 +10,8 @@ export function AboutBookSection() {
         <Reveal>
           <SectionHeading
             eyebrow="About the Book"
-            title="A broader lens on national strategy"
-            description="Written in a measured, policy-minded voice, the book argues that the United States needs a fuller method for understanding the risks shaping its future."
+            title="A case for restoring broad-based opportunity"
+            description="Written in a measured, policy-minded voice, the book argues that reviving the American dream requires a fuller accounting of economic strain, domestic fracture, and global pressure."
           />
 
           <div className="mt-8 space-y-5 sm:mt-10 sm:space-y-6">
@@ -29,7 +29,7 @@ export function AboutBookSection() {
               rel="noreferrer"
               variant="secondary"
             >
-              View on Amazon
+              View at Barnes & Noble
             </ButtonLink>
           </div>
         </Reveal>

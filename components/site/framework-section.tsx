@@ -31,8 +31,8 @@ export function FrameworkSection() {
         <Reveal>
           <SectionHeading
             eyebrow="The Framework"
-            title="A three-part structure for assessing national pressure"
-            description="The book organizes risk across three domains. Each is distinct, yet each operates within the same strategic landscape."
+            title="A three-part view of what is constraining national renewal"
+            description="The book frames the American dilemma across material resilience, internal systems, and the wider global environment that shapes domestic priorities."
           />
         </Reveal>
 
@@ -67,7 +67,7 @@ export function FrameworkSection() {
                     <div className="absolute inset-x-5 bottom-[4.9rem] h-px bg-gradient-to-r from-transparent via-white/16 to-transparent sm:inset-x-6 sm:bottom-[5.35rem]" />
                     <div className="absolute inset-x-5 bottom-5 sm:inset-x-6 sm:bottom-6">
                       <p className="mb-2 text-[0.68rem] uppercase tracking-[0.28em] text-white/36">
-                        Threat Category
+                        Focus Area
                       </p>
                       <h3 className="font-display text-[2rem] font-semibold uppercase leading-none tracking-[0.1em] text-soft-white sm:text-[2.2rem]">
                         {item.title}

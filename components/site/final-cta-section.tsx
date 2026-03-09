@@ -1,11 +1,12 @@
 import { BookVisual } from "@/components/site/book-visual";
 import { siteContent } from "@/content/site";
 import { ButtonLink } from "@/components/ui/button-link";
+import { ContentBadge } from "@/components/ui/content-badge";
 import { Reveal } from "@/components/ui/reveal";
 
 export function FinalCtaSection() {
   return (
-    <section className="px-6 py-16 sm:py-20 lg:px-10 lg:py-24">
+    <section id="contact" className="px-6 py-16 sm:py-20 lg:px-10 lg:py-24">
       <div className="mx-auto max-w-7xl">
         <Reveal>
           <div className="editorial-panel relative overflow-hidden rounded-[34px] px-6 py-8 sm:px-10 sm:py-12 lg:px-12">
@@ -14,7 +15,7 @@ export function FinalCtaSection() {
               <div>
                 <p className="quiet-label">Final CTA</p>
                 <h2 className="mt-5 max-w-4xl font-display text-[2.15rem] font-semibold uppercase leading-[0.95] tracking-[0.08em] text-balance sm:text-[3rem]">
-                  Add the book to your strategic reading list.
+                  Read the case for reviving the American dream.
                 </h2>
                 <p className="mt-6 max-w-2xl text-base leading-8 text-white/72 sm:text-lg">
                   {siteContent.book.shortDescription}
@@ -27,11 +28,36 @@ export function FinalCtaSection() {
                     rel="noreferrer"
                     className="w-full sm:w-auto"
                   >
-                    Buy on Amazon
+                    Buy at Barnes & Noble
                   </ButtonLink>
                   <p className="text-sm uppercase tracking-[0.26em] text-white/50">
                     {siteContent.book.availability}
                   </p>
+                </div>
+
+                <div className="section-rule mt-8 max-w-xl sm:mt-10" />
+
+                <div className="mt-8 max-w-xl rounded-[24px] border border-white/10 bg-white/[0.03] p-5 sm:mt-10 sm:p-6">
+                  <div className="flex flex-wrap items-center gap-3">
+                    <p className="quiet-label">Contact</p>
+                    {siteContent.contact.isPlaceholder ? (
+                      <ContentBadge tone="placeholder">Editable</ContentBadge>
+                    ) : null}
+                  </div>
+                  <p className="mt-3 font-display text-[0.72rem] uppercase tracking-[0.28em] text-soft-white">
+                    {siteContent.contact.label}
+                  </p>
+                  {siteContent.contact.href ? (
+                    <a
+                      href={siteContent.contact.href}
+                      className="mt-3 inline-flex text-sm text-white/78 transition hover:text-soft-white"
+                    >
+                      {siteContent.contact.value}
+                    </a>
+                  ) : (
+                    <p className="mt-3 text-sm text-white/70">{siteContent.contact.value}</p>
+                  )}
+                  <p className="mt-2 text-sm text-white/48">{siteContent.contact.note}</p>
                 </div>
               </div>
 

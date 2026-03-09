@@ -1,12 +1,11 @@
-import { ContentBadge } from "@/components/ui/content-badge";
 import { navigation, siteContent } from "@/content/site";
 
 export function SiteFooter() {
   const year = new Date().getFullYear();
 
   return (
-    <footer id="contact" className="border-t border-white/8 px-6 py-8 sm:py-10 lg:px-10">
-      <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.9fr)] lg:items-end">
+    <footer className="border-t border-white/8 px-6 py-8 sm:py-10 lg:px-10">
+      <div className="mx-auto grid max-w-7xl gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.9fr)] lg:items-end">
         <div className="space-y-3">
           <p className="font-display text-sm uppercase tracking-[0.3em] text-soft-white">
             {siteContent.authorName}
@@ -14,28 +13,6 @@ export function SiteFooter() {
           <p className="text-sm text-white/50">
             Copyright © {year} {siteContent.authorName}. All rights reserved.
           </p>
-          <div className="mt-5 max-w-md rounded-[22px] border border-white/10 bg-white/[0.03] p-4 sm:p-5">
-            <div className="flex flex-wrap items-center gap-3">
-              <p className="quiet-label">Contact</p>
-              {siteContent.contact.isPlaceholder ? (
-                <ContentBadge tone="placeholder">Editable</ContentBadge>
-              ) : null}
-            </div>
-            <p className="mt-3 font-display text-[0.72rem] uppercase tracking-[0.28em] text-soft-white">
-              {siteContent.contact.label}
-            </p>
-            {siteContent.contact.href ? (
-              <a
-                href={siteContent.contact.href}
-                className="mt-3 inline-flex text-sm text-white/78 transition hover:text-soft-white"
-              >
-                {siteContent.contact.value}
-              </a>
-            ) : (
-              <p className="mt-3 text-sm text-white/70">{siteContent.contact.value}</p>
-            )}
-            <p className="mt-2 text-sm text-white/48">{siteContent.contact.note}</p>
-          </div>
         </div>
 
         <div className="space-y-4 lg:justify-self-end lg:text-right">
@@ -55,7 +32,7 @@ export function SiteFooter() {
                   rel="noreferrer"
                   className="hover:text-soft-white"
                 >
-                  Amazon
+                  Barnes & Noble
                 </a>
               </li>
             </ul>

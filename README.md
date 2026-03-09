@@ -1,6 +1,8 @@
 # Edward A. Corcoran Website
 
-Premium single-author landing page for *Threats & Challenges: Strategies in a New Century*, built with Next.js, React, Tailwind CSS, and Framer Motion.
+Premium single-author landing page for Edward A. Corcoran, built with Next.js, React, Tailwind CSS, and Framer Motion.
+
+For non-technical content updates, use [AUTHOR_GUIDE.md](/mnt/d/VS/edward%20website/AUTHOR_GUIDE.md).
 
 ## Commands
 
@@ -14,7 +16,7 @@ Premium single-author landing page for *Threats & Challenges: Strategies in a Ne
 
 Update verified content in [content/site.ts](/mnt/d/VS/edward%20website/content/site.ts).
 
-- Book title, subtitle, hero line breaks, CTA text, and Amazon link
+- Book title, subtitle, hero line breaks, CTA text, and store link
 - Framework card copy
 - Author biography placeholders
 - Review placeholders

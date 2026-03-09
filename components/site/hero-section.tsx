@@ -31,10 +31,10 @@ export function HeroSection() {
           <Reveal className="space-y-10 sm:space-y-12">
             <div className="space-y-6 sm:space-y-7">
               <div className="flex flex-wrap items-center gap-x-4 gap-y-3">
-                <p className="quiet-label">Strategic Assessment</p>
+                <p className="quiet-label">National Renewal</p>
                 <span className="hidden h-px w-16 bg-white/12 sm:block" />
                 <p className="text-[0.68rem] uppercase tracking-[0.28em] text-white/38">
-                  Public Affairs / National Risk
+                  Economic Policy / Civic Resilience
                 </p>
               </div>
 
@@ -49,9 +49,11 @@ export function HeroSection() {
                     </span>
                   ))}
                 </h1>
-                <p className="max-w-[30rem] font-display text-[0.82rem] uppercase leading-6 tracking-[0.4em] text-white/58 sm:text-[0.94rem] sm:leading-7">
-                  {siteContent.book.subtitle}
-                </p>
+                {siteContent.book.subtitle ? (
+                  <p className="max-w-[30rem] font-display text-[0.82rem] uppercase leading-6 tracking-[0.4em] text-white/58 sm:text-[0.94rem] sm:leading-7">
+                    {siteContent.book.subtitle}
+                  </p>
+                ) : null}
               </div>
             </div>
 
@@ -69,7 +71,7 @@ export function HeroSection() {
                 rel="noreferrer"
                 className="w-full sm:w-auto"
               >
-                Buy on Amazon
+                Buy at Barnes & Noble
               </ButtonLink>
               <ButtonLink href="#book" variant="secondary" className="w-full sm:w-auto">
                 Explore the Book
