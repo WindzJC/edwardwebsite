@@ -17,6 +17,8 @@ export const siteContent = {
       "A policy-minded call for a comprehensive national survey of the economic, social, and global pressures that have dimmed the American dream.",
     buyUrl:
       "https://www.barnesandnoble.com/w/revive-the-american-dream-edward-corcoran/1145837232?ean=9798895183953",
+    // Amazon link currently points to a book search because a stable direct listing URL was not verified.
+    amazonUrl: "https://www.amazon.com/s?k=Revive+the+American+Dream+Edward+Corcoran",
     availability: "Available in paperback",
     // Switch this to "flat" if you want the hero to use the raw cover instead of the CSS-based 3D presentation.
     heroBookMode: "mockup" as const,

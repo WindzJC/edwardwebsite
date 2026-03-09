@@ -30,6 +30,15 @@ export function FinalCtaSection() {
                   >
                     Buy at Barnes & Noble
                   </ButtonLink>
+                  <ButtonLink
+                    href={siteContent.book.amazonUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    variant="secondary"
+                    className="w-full sm:w-auto"
+                  >
+                    Buy on Amazon
+                  </ButtonLink>
                   <p className="text-sm uppercase tracking-[0.26em] text-white/50">
                     {siteContent.book.availability}
                   </p>

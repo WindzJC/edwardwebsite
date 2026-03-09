@@ -73,6 +73,15 @@ export function HeroSection() {
               >
                 Buy at Barnes & Noble
               </ButtonLink>
+              <ButtonLink
+                href={siteContent.book.amazonUrl}
+                target="_blank"
+                rel="noreferrer"
+                variant="secondary"
+                className="w-full sm:w-auto"
+              >
+                Buy on Amazon
+              </ButtonLink>
               <ButtonLink href="#book" variant="secondary" className="w-full sm:w-auto">
                 Explore the Book
               </ButtonLink>

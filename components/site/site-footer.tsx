@@ -35,6 +35,16 @@ export function SiteFooter() {
                   Barnes & Noble
                 </a>
               </li>
+              <li>
+                <a
+                  href={siteContent.book.amazonUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:text-soft-white"
+                >
+                  Amazon
+                </a>
+              </li>
             </ul>
           </nav>
           <p className="text-sm text-white/44">
