@@ -9,9 +9,9 @@ export const navigation = [
 export const siteContent = {
   authorName: "Edward A. Corcoran",
   book: {
-    title: "Threats & Challenges",
+    title: "Revive American Dream",
     // Update these lines if you want the hero title to break differently.
-    heroTitleLines: ["Threats", "& Challenges"],
+    heroTitleLines: ["Revive", "American Dream"],
     subtitle: "Strategies in a New Century",
     shortDescription:
       "A strategic assessment of the evolving natural, internal, and external threats facing the United States.",
@@ -115,6 +115,12 @@ export const siteContent = {
       source: "Institution or publication to be confirmed"
     }
   ],
-  // Editable contact: use a public-facing address or inquiry route before launch.
-  contact: "Replace with a public contact address"
+  // Editable contact: replace with a verified public-facing address or inquiry route before launch.
+  contact: {
+    label: "Author Inquiries",
+    value: "Replace with a public contact email",
+    note: "Use this area for media, speaking, or rights inquiries.",
+    href: null,
+    isPlaceholder: true
+  }
 } as const;
