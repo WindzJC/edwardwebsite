@@ -1,5 +1,6 @@
 import { AboutBookSection } from "@/components/site/about-book-section";
 import { AuthorSection } from "@/components/site/author-section";
+import { BookTrailerSection } from "@/components/site/book-trailer-section";
 import { FinalCtaSection } from "@/components/site/final-cta-section";
 import { FrameworkSection } from "@/components/site/framework-section";
 import { HeroSection } from "@/components/site/hero-section";
@@ -18,6 +19,7 @@ export default function HomePage() {
         <HeroSection />
         <FrameworkSection />
         <AboutBookSection />
+        <BookTrailerSection />
         <AuthorSection />
         <ReviewsSection />
         <FinalCtaSection />

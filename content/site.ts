@@ -1,6 +1,7 @@
 export const navigation = [
   { label: "Home", href: "#top" },
   { label: "The Book", href: "#book" },
+  { label: "Trailer", href: "#trailer" },
   { label: "About the Author", href: "#author" },
   { label: "Reviews", href: "#reviews" },
   { label: "Contact", href: "#contact" }
@@ -16,7 +17,7 @@ export const siteContent = {
     shortDescription:
       "A policy-minded call for a comprehensive national survey of the economic, social, and global pressures that have dimmed the American dream.",
     buyUrl:
-      "https://www.barnesandnoble.com/w/revive-the-american-dream-edward-corcoran/1145837232?ean=9798895183953",
+      "https://www.barnesandnoble.com/w/revive-the-american-dream-edward-corcoran/1145837232?ean=9798319633286",
     amazonUrl:
       "https://www.amazon.ca/Revive-American-Dream-Edward-Corcoran/dp/1968069119/ref=sr_1_1?crid=80ZWXC1N4TJR&dib=eyJ2IjoiMSJ9.a4otBSNFhWxFAH_kPkvOQMTZZ3z0YdDXYyc7iJysV3deR2Ew5gGPOvitRW_z3VrOSeH3_mdmaW-j-F7_Mi0-Uno9DcFqgJ6C_wxzXv03MJR6lXgDdSAPkAT2twYTncpSMWVeKGY_rUfs94qttytKlPIvoBM6aB5h6jLCokUjwzZGFRqLBQPQFgmxp2-ePcovDaJ6o0jpqXW13U_jAVSQdb_W2q8LfQf8c-788pAK_uo.pIXvQtFaz2QGWaOqP_E9SQNAxMjc-IHSJ1Wely3XU3g&dib_tag=se&keywords=Revive+the+American+Dream&qid=1773057788&s=books&sprefix=revive+the+american+dream%2Cstripbooks%2C517&sr=1-1",
     availability: "Available in paperback",
@@ -28,6 +29,12 @@ export const siteContent = {
     ],
     quote:
       "We badly need a comprehensive survey of the challenges facing the nation, assessing how to best balance resources to revive the American dream.",
+    trailer: {
+      url: "https://youtu.be/3HxP2U8cevY",
+      title: "Watch the book trailer",
+      description:
+        "A short video introduction to the themes and urgency behind Revive the American Dream."
+    },
     tags: [
       "Economic Policy",
       "National Renewal",
