@@ -14,10 +14,10 @@ type BookVisualProps = {
 
 const sizeClasses = {
   hero: "max-w-[18rem] sm:max-w-[22rem] md:max-w-[26rem] lg:max-w-[31rem] xl:max-w-[36rem]",
-  compact: "max-w-[12rem] sm:max-w-[14rem] md:max-w-[16rem]"
+  compact: "max-w-[14rem] sm:max-w-[16rem] md:max-w-[18rem]"
 } as const;
 
-const coverImageSrc = "/images/revive-american-dream-cover.jpg";
+const coverImageSrc = "/images/book-cover.jpg";
 
 export function BookVisual({
   mode = "mockup",

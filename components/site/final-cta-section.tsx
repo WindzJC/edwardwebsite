@@ -11,7 +11,7 @@ export function FinalCtaSection() {
         <Reveal>
           <div className="editorial-panel relative overflow-hidden rounded-[34px] px-6 py-8 sm:px-10 sm:py-12 lg:px-12">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_16%_18%,rgba(109,160,241,0.1),transparent_26%),radial-gradient(circle_at_84%_20%,rgba(217,164,96,0.08),transparent_18%),radial-gradient(circle_at_74%_78%,rgba(157,119,222,0.08),transparent_22%)]" />
-            <div className="relative grid gap-8 sm:gap-10 lg:grid-cols-[minmax(0,1.1fr)_16rem] lg:items-center">
+            <div className="relative grid gap-8 sm:gap-10 lg:grid-cols-[minmax(0,1fr)_19rem] lg:items-center">
               <div>
                 <p className="quiet-label">Final CTA</p>
                 <h2 className="mt-5 max-w-4xl font-display text-[2.15rem] font-semibold uppercase leading-[0.95] tracking-[0.08em] text-balance sm:text-[3rem]">
@@ -70,7 +70,7 @@ export function FinalCtaSection() {
                 </div>
               </div>
 
-              <div className="mx-auto w-full max-w-[16rem] lg:mr-0">
+              <div className="mx-auto w-full max-w-[19rem] lg:mr-0">
                 <BookVisual mode="flat" size="compact" />
               </div>
             </div>
