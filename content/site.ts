@@ -113,16 +113,15 @@ export const siteContent = {
   // Editable reviews: keep quotes and sources strictly attributed.
   reviews: [
     {
-      quote: "Replace with a verified endorsement, review excerpt, or publication quote.",
-      source: "Source name and attribution to be confirmed"
-    },
-    {
-      quote: "Replace with a second attributed review once approved for publication.",
-      source: "Reviewer or outlet to be confirmed"
-    },
-    {
-      quote: "Replace with a third verified line of praise, keeping attribution precise.",
-      source: "Institution or publication to be confirmed"
+      title: "An expansive, argument-heavy call to rethink what national security really means.",
+      body: [
+        "In Revive the American Dream, Edward Corcoran delivers a sweeping assessment of the threats confronting the United States, but his real subject is not disaster. It is drift. Drawing on a long career in military, intelligence, and strategic policy circles, Corcoran argues that America has continued to think like a 20th-century power while entering a 21st century shaped by climate stress, democratic erosion, wealth inequality, global instability, and institutional fragility. The result, in his view, is a nation dangerously overcommitted to military reflexes and underprepared for the forces most likely to corrode its prosperity and legitimacy.",
+        "The book's range is formidable. Corcoran moves from asteroid strikes and pandemics to healthcare inefficiency, economic imbalance, Russia, China, autocracy, and the militarized habits of American policymaking. At times, the scope is so broad that the argument risks diffusion. Still, the author's central contention remains sharp: the American Dream cannot be revived unless the country rebuilds the domestic and strategic foundations that once made freedom, opportunity, and leadership credible. His most persuasive chapters are those that connect internal decay to diminished global standing, and those that insist prosperity, governance, and human dignity belong at the center of any serious national strategy.",
+        "This is not a breezy political polemic. It is a dense, deeply synthetic work of public-affairs nonfiction that asks readers to widen their frame and abandon comforting simplifications. Readers may quarrel with some of Corcoran's judgments, but they are unlikely to miss the urgency of his message."
+      ],
+      verdict:
+        "A capacious, provocative, and unapologetically big-think critique of American decline and a serious plea for renewal.",
+      source: "Kirkus Review by Barnes & Noble"
     }
   ],
   // Editable contact: replace with a verified public-facing address or inquiry route before launch.
